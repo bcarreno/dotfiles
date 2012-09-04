@@ -1,1 +1,40 @@
-/Users/bcarreno/.aliases
+alias ?='history'
+alias c='clear'
+alias e='mvim'
+alias ealiases='mvim ~/.aliases'
+alias gs='git s'
+alias ll='ls -l'
+alias lt='ls -ltr'
+alias more='more -x2'	 # expand tabs
+alias raliases='source ~/.aliases'
+alias t='todo.rb'
+function tt()  {
+  pushd ~/todo && t $@
+  popd
+}
+
+alias blog='cd ~/prj/blog'
+alias css='cd ~/prj/css_test'
+alias dg='cd ~/prj/dogood'
+alias dgbusiness='cd ~/prj/dogood_soa/dogood_business_admin'
+alias dgnonprofit='cd ~/prj/dogood_soa/dogood_nonprofits_admin'
+alias dgcontent='cd ~/prj/dogood_soa/dogood_content'
+alias mackey='cd ~/prj/mackey'
+alias rb='cd ~/prj/ruby_test'
+alias yahoo='cd ~/prj/yahoo_quote'
+alias ws='cd ~/prj/bostonrb-workshop'
+
+alias sqlblog='psql blog4_development'
+alias sqldg='psql dogood_development'
+alias sqldgbbusiness='psql dogood-business'
+alias sqldgcontent='psql dogood_content'
+alias sqllstat='psql lstat_development'
+alias sqlmackey='mysql mackey_development'
+
+alias sshdemo='ssh braulio@mackeyllc.com'
+alias sshharvard='ssh harvard@66.228.46.117'
+alias sshjet='ssh jet@mackeyllc.com'
+alias sshloudcaster='ssh lstat@stats.loudcaster.com'
+alias sshrancor='ssh loudcaster@97.107.129.43'
+alias sshdragon='ssh -p 222 bcarreno@71.235.26.234'
+alias sshdg='ssh demo@dogooddemo.com'
